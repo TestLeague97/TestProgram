@@ -1,0 +1,74 @@
+#fstgen{
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	background-color: darkgray;
+	
+}
+#fstheader h1{
+	font-size: 30px;
+
+}
+#fstgen_para{
+	margin-top: 9px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: lightgray;
+	float: right;
+	border-radius: 5px;
+	font-family: Courier;
+}
+#fstgen_para img{
+
+}
+
+#scndgen{
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 00px;
+	background-color: darkgray;
+	
+}
+#scndheader h1{
+	font-size: 30px;
+}
+#scndgen_para{
+
+	margin-top: 9px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: lightgray;
+	float: right;
+	border-radius: 5px;
+	font-family: sans-serif;
+}
+#scndgen_para img{
+
+}
+
+#origin{
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 00px;
+	background-color: darkgray;
+	
+}
+#originheader h1{
+	font-size: 30px;
+}
+#origin_para{
+
+	margin-top: 9px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	background-color: lightgray;
+	float: right;
+	border-radius: 5px;
+	font-family: sans-serif;
+}
+#origin_para img{
+
+}

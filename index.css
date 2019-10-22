@@ -1,0 +1,123 @@
+body{
+	padding: 0;
+	margin: 0;
+	overflow-y:scroll;
+	font-family: Verdana;
+	font-size: 20px;
+	background-color: darkgray;
+}
+
+#nav{
+	background-color: #222;
+}
+
+#nav_wrapper{
+	margin: 0 auto;
+	width: 960px;
+	text-align: right;
+}
+
+#nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	position: relative;
+}
+
+#nav ul li img{
+	vertical-align: middle;
+	padding: 5px;
+}
+
+#nav ul li{
+	display: inline-block;
+}
+
+#nav ul li:hover{
+	background-color: black;
+}
+
+#nav ul li a,visited{
+	color: #ccc;
+	display:block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#nav ul li a,hover{
+	color: #ccc;
+	text-decoration: none;
+}
+
+#nav ul li:hover ul{
+	display: block;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	background-color: #333;
+}
+
+#nav ul ul li{
+	display: block;
+}
+
+#nav ul ul li a,visited{
+	color:#ccc;
+}
+
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#form ul li{
+	display: inline-block;
+}
+
+#form ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	position: relative;
+}
+
+#form ul li a,visited{
+	color:#ccc;
+}
+#form ul li a:hover{
+	color:#099;
+}
+
+#logoimg{
+	margin: 10px;
+	padding-top: 20px;
+	width: 100%;
+	margin:0;
+}
+
+.article_wrap{
+	background-color: #e3e3e3;
+	display: inline-block;
+	width: 400px;
+	margin:15px;
+	padding: 5px;
+}
+
+.article_content{
+	font-size: 15px;
+	font-color:#e5e5e5;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#logoimg{
+	background-image: url("../image/bck.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+
+}
+.article_wrap h1{
+	text-shadow: 5px 5px 7px darkgray;
+}
